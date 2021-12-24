@@ -13,7 +13,7 @@ Arduino IDEでESP32開発環境を複数のバージョンを共存させる場�
 | ESP-IDF | arduino-esp32    | M5Stack           | platform-espressif32                                                                                       |
 |---------|------------------|-------------------|------------------------------------------------------------------------------------------------------------|
 | 4.4     | 2.0.1(2021/11/9)<br />2.0.2(2021/12/23)|                   |                                                                                                            |
-| 4.4     | 2.0.0(2021/8/31) | 2.0.0(2021/10/30) |                                                                                                            |
+| 4.4     | 2.0.0(2021/8/31) | 2.0.0(2021/10/30)<br />2.0.1(2021/12/20) |                                                                                                            |
 | 3.3.5   | 1.0.6(2021/3/26) |                   | 3.4(2021/11/12)<br />3.3.2(2021/8/31)<br />3.3.1(2021/7/27)<br   />3.3.0(2021/6/30)<br />3.2.1(2021/5/31)<br />3.2.0(2021/3/29) |
 | 3.3     | 1.0.5(2021/2/23) |                   | 3.1.1(2021/3/19)<br />3.1.0(2021/2/26)                                                                     |
 | 3.2     | 1.0.4(2019/10/2) | 1.0.9(2021/8/24)  | 3.0.0(2021/1/30)<br />2.1.0(2020/12/2)                                                                     |
@@ -33,12 +33,14 @@ https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/packa
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_esp32_index_1.0.6.json
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_esp32_index_2.0.0.json
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_esp32_index_2.0.1.json
+https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_esp32_index_2.0.2.json
 
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_m5stack_index_1.0.6.json
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_m5stack_index_1.0.7.json
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_m5stack_index_1.0.8.json
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_m5stack_index_1.0.9.json
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_m5stack_index_2.0.0.json
+https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_m5stack_index_2.0.1.json
 ```
 
 ## ボードマネージャでインストール
