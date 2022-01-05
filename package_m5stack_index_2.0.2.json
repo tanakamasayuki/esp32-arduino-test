@@ -8,14 +8,14 @@
       "websiteURL": "https://github.com/m5stack", 
       "platforms": [
         {
-          "name": "M5Stack_2.0.1",
+          "name": "M5Stack_2.0.2",
           "architecture": "esp32",
-          "version": "2.0.1",
-          "category": "M5Stack_2.0.1",
-          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.1.zip",
-          "archiveFileName": "m5stack-2.0.1.zip",
-          "checksum": "SHA-256:14dcd949ef9ae66dfddc3dcc7d38a1d10c82c2b78c8505bdc172c3b04555ebc8",
-          "size": "143223648",
+          "version": "2.0.2",
+          "category": "M5Stack_2.0.2",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.2.zip",
+          "archiveFileName": "m5stack-2.0.2.zip",
+          "checksum": "SHA-256:de539dcfda4e520f5539eb471d5ef9a1ab907373669ac90a0eb09d2f5c6ead4e",
+          "size": "145624210",
           "help": {
             "online": ""
           },
@@ -65,32 +65,32 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "m5stack_2.0.1",
+              "packager": "m5tack_2.0.2",
               "name": "riscv32-esp-elf-gcc",
               "version": "gcc8_4_0-esp-2021r2"
             },
             {
-              "packager": "m5stack_2.0.1",
+              "packager": "m5tack_2.0.2",
               "name": "xtensa-esp32-elf-gcc",
               "version": "gcc8_4_0-esp-2021r2"
             },
             {
-              "packager": "m5stack_2.0.1",
+              "packager": "m5tack_2.0.2",
               "name": "xtensa-esp32s2-elf-gcc",
               "version": "gcc8_4_0-esp-2021r2"
             },
             {
-              "packager": "m5stack_2.0.1",
+              "packager": "m5tack_2.0.2",
               "name": "esptool_py",
               "version": "3.1.0"
             },
             {
-              "packager": "m5stack_2.0.1",
+              "packager": "m5tack_2.0.2",
               "name": "mkspiffs",
               "version": "0.2.3"
             },
             {
-              "packager": "m5stack_2.0.1",
+              "packager": "m5tack_2.0.2",
               "name": "mklittlefs",
               "version": "3.0.0-gnu12-dc7f933"
             }
@@ -805,7 +805,7 @@
           ]
         }
       ],
-      "name": "M5Stack_2.0.1"
+      "name": "m5tack_2.0.2"
     }
   ]
 }
