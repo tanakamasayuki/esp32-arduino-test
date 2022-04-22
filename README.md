@@ -76,3 +76,18 @@ ESP32 for Arduino 2.0.0の場合には上記にplatform.txtがあります。
 ```
 
 一行目がボード選択で表示されるグループ名なので、ここをわかりやすい名前に変更します。
+
+## PlatformIOのplatformio.ini例
+```
+[env:m5stack-basic]
+platform = espressif32@3.3.2 ;ESP-IDF(3.3.5), Arduino(1.0.6)
+framework = arduino
+board = m5stack-core-esp32
+lib_ldf_mode = deep
+monitor_speed = 115200
+build_flags = -DCORE_DEBUG_LEVEL=0 ;0:None, 1:Error, 2:Warn, 3:Info, 4:Debug, 5:Verbose
+;upload_port = COM3
+;board_build.partitions = no_ota.csv ;https://github.com/espressif/arduino-esp32/tree/master/tools/partitions
+lib_deps = 
+  m5stack/M5Stack
+```
