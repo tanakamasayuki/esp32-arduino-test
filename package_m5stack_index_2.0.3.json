@@ -8,7 +8,7 @@
       "websiteURL": "https://github.com/m5stack",
       "platforms": [
         {
-          "name": "M5Stack_2.0.3",
+          "name": "m5stack_2.0.3",
           "architecture": "esp32",
           "version": "2.0.3",
           "category": "M5Stack",
