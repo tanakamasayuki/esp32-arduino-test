@@ -8,10 +8,10 @@
       "websiteURL": "https://github.com/m5stack",
       "platforms": [
         {
-          "name": "M5Stack_2.0.4",
+          "name": "m5stack_2.0.4",
           "architecture": "esp32",
           "version": "2.0.4",
-          "category": "M5Stack_2.0.4",
+          "category": "m5stack_2.0.4",
           "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.4.zip",
           "archiveFileName": "esp32-2.0.4.zip",
           "checksum": "SHA-256:003df9495c2ecebab928c911f00d378001b8085d199ed69394f7b9483b0bdd2a",
@@ -1088,7 +1088,7 @@
           ]
         }
       ],
-      "name": "M5Stack_2.0.4"
+      "name": "m5stack_2.0.4"
     }
   ]
 }
