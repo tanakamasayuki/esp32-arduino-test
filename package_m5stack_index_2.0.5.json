@@ -15,7 +15,7 @@
           "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.5.zip",
           "archiveFileName": "esp32-2.0.5.zip",
           "checksum": "SHA-256:f5a3969d1fb916bee10076de3cec48f7dbaf9f378f768b961f5fe9bd0f876315",
-          "size": "250160606 ",
+          "size": "250160606",
           "help": {
             "online": ""
           },
