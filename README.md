@@ -66,11 +66,13 @@ https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/packa
 
 バージョン別に表示されますので個別にインストールします。
 
-## ボード選択メニューの名前を修正
+## (IDE1のみ)ボード選択メニューの名前を修正
 
 ![](img/noname.png)
 
 追加した直後ですとどのバージョンかがわからないので修正します。
+
+ただしArduino IDE2以降の場合にはバージョン番号付きの名前で表示されるので変更する必要はありません。
 
 ```
 C:\Users\%USERNAME%\AppData\Local\Arduino15\packages
