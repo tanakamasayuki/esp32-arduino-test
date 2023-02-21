@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "m5stack_2.0.0",
+      "name": "m5stack_2.0.6",
       "maintainer": "M5Stack official",
       "websiteURL": "https://github.com/m5stack",
       "email": " support@m5stack.com",
@@ -10,90 +10,109 @@
       },
       "platforms": [
         {
-          "category": "M5Stack",
-          "name": "m5stack_2.0.0",
-          "version": "2.0.0",
-          "architecture": "esp32",
-          "archiveFileName": "esp32-2.0.0.zip",
-          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.0.zip",
-          "checksum": "SHA-256:376f0ec9b0675d6d3577909f053afef946d42b3a940f03b7d6f974b203b10513",
-          "size": "134351097",
-          "help": {
-            "online": ""
-          },
-          "boards": [
-            {
-              "name": "M5Core"
+            "name": "m5stack_2.0.6",
+            "architecture": "esp32",
+            "version": "2.0.6",
+            "category": "M5Stack",
+            "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.6.zip",
+            "archiveFileName": "esp32-2.0.6.zip",
+            "checksum": "SHA-256:2edae185d1a17f4d2baa2b151cb747f0d7cefd561ca5bedd7ad91e15e5c4eb7c",
+            "size": "253710190",
+            "help": {
+              "online": ""
             },
-            {
-              "name": "FIRE"
-            },
-            {
-              "name": "Core2"
-            },
-            {
-              "name": "M5StickC"
-            },
-            {
-              "name": "M5StickC-Plus"
-            },
-            {
-              "name": "M5Atom"
-            },
-            {
-              "name": "TimerCAM"
-            },
-            {
-              "name": "PoECAM"
-            },
-            {
-              "name": "CoreInk"
-            },
-            {
-              "name": "M5Paper"
-            },
-            {
-              "name": "Tough"
-            },
-            {
-              "name": "STAMP-PICO"
-            },
-            {
-              "name": "STAMP-C3"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "m5stack_2.0.0",
-              "name": "riscv32-esp-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r1"
-            },
-            {
-              "packager": "m5stack_2.0.0",
-              "name": "xtensa-esp32-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r1"
-            },
-            {
-              "packager": "m5stack_2.0.0",
-              "name": "xtensa-esp32s2-elf-gcc",
-              "version": "gcc8_4_0-esp-2021r1"
-            },
-            {
-              "packager": "m5stack_2.0.0",
-              "name": "esptool_py",
-              "version": "3.1.0"
-            },
-            {
-              "packager": "m5stack_2.0.0",
-              "name": "mkspiffs",
-              "version": "0.2.3"
-            },
-            {
-              "packager": "m5stack_2.0.0",
-              "name": "mklittlefs",
-              "version": "3.0.0-gnu12-dc7f933"
-            }
-          ]
+            "boards": [
+                {
+                  "name": "M5Atom"
+                },
+                {
+                  "name": "M5AtomS3"
+                },
+                {
+                  "name": "M5Core"
+                },
+                {
+                  "name": "Core2"
+                },
+                {
+                  "name": "CoreInk"
+                },
+                {
+                  "name": "FIRE"
+                },
+                {
+                  "name": "M5Paper"
+                },
+                {
+                  "name": "PoECAM"
+                },
+                {
+                  "name": "M5Station"
+                },
+                {
+                  "name": "TimerCAM"
+                },
+                {
+                  "name": "Tough"
+                },
+                {
+                  "name": "UnitCAM"
+                },
+                {
+                  "name": "M5StickC"
+                },
+                {
+                  "name": "M5StickC-Plus"
+                },
+                {
+                  "name": "STAMP-C3"
+                },
+                {
+                  "name": "STAMP-PICO"
+                }
+              ],
+            "toolsDependencies": [
+              {
+                "packager": "m5stack_2.0.6",
+                "name": "riscv32-esp-elf-gcc",
+                "version": "gcc8_4_0-esp-2021r2-patch5"
+              },
+              {
+                "packager": "m5stack_2.0.6",
+                "name": "xtensa-esp32-elf-gcc",
+                "version": "gcc8_4_0-esp-2021r2-patch5"
+              },
+              {
+                "packager": "m5stack_2.0.6",
+                "name": "xtensa-esp32s2-elf-gcc",
+                "version": "gcc8_4_0-esp-2021r2-patch5"
+              },
+              {
+                "packager": "m5stack_2.0.6",
+                "name": "xtensa-esp32s3-elf-gcc",
+                "version": "gcc8_4_0-esp-2021r2-patch5"
+              },
+              {
+                "packager": "m5stack_2.0.6",
+                "name": "esptool_py",
+                "version": "4.2.1"
+              },
+              {
+                "packager": "m5stack_2.0.6",
+                "name": "openocd-esp32",
+                "version": "v0.11.0-esp32-20220706"
+              },
+              {
+                "packager": "m5stack_2.0.6",
+                "name": "mkspiffs",
+                "version": "0.2.3"
+              },
+              {
+                "packager": "m5stack_2.0.6",
+                "name": "mklittlefs",
+                "version": "3.0.0-gnu12-dc7f933"
+              }
+            ]
         }
       ],
       "tools": [
