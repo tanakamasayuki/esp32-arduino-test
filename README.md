@@ -12,8 +12,9 @@ Arduino IDEでESP32開発環境を複数のバージョンを共存させる場�
 
 | ESP-IDF | arduino-esp32     | M5Stack           | platform-espressif32                                                                                       |
 |---------|-------------------|-------------------|------------------------------------------------------------------------------------------------------------|
-| 4.4.4   | 2.0.7(2023/02/21) |                   |                                                                                                            |
-| 4.4.3   | 2.0.6(2022/12/23) | 2.0.6(2023/01/09) | 6.0.1(2023/02/06)<br />6.0.0(2023/01/17)<br />5.3.0(2022/12/30)                                            |
+| 4.4.4   | 2.0.8(2023/04/20) |                   |                                                                                                            |
+| 4.4.4   | 2.0.7(2023/02/21) |                   | 6.1.0(2023/03/09)                                                                                          |
+| 4.4.3   | 2.0.6(2022/12/23) | 2.0.6-1(2023/02/26)<br />2.0.6(2023/01/09) | 6.0.1(2023/02/06)<br />6.0.0(2023/01/17)<br />5.3.0(2022/12/30)                   |
 | 4.4.2   | 2.0.5(2022/09/17) | 2.0.5(2022/10/03) | 5.2.0(2022/09/30)                                                                                          |
 | 4.4.2   | 2.0.4(2022/07/06) | 2.0.4(2022/08/16) | 5.1.1(2022/08/26)<br />5.1.0(2022/08/01)                                                                   |
 | 4.4.1   | 2.0.3(2022/03/30) | 2.0.3(2022/05/12) | 5.0.0(2022/06/30)<br />4.4.0(2022/06/01)<br />4.3.0(2022/05/21)                                            |
@@ -45,6 +46,7 @@ https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/packa
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_esp32_index_2.0.5.json
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_esp32_index_2.0.6.json
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_esp32_index_2.0.7.json
+https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_esp32_index_2.0.8.json
 
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_m5stack_index_1.0.6.json
 https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_m5stack_index_1.0.7.json
