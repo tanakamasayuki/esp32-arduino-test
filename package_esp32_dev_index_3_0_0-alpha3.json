@@ -40,57 +40,57 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "esp32_3.0.0-alpha3"
+              "packager": "esp32_3.0.0-alpha3",
               "name": "esp32-arduino-libs",
               "version": "idf-release_v5.1-3662303f31"
             },
             {
-              "packager": "esp32_3.0.0-alpha3"
+              "packager": "esp32_3.0.0-alpha3",
               "name": "xtensa-esp32-elf-gcc",
               "version": "esp-12.2.0_20230208"
             },
             {
-              "packager": "esp32_3.0.0-alpha3"
+              "packager": "esp32_3.0.0-alpha3",
               "name": "xtensa-esp32s2-elf-gcc",
               "version": "esp-12.2.0_20230208"
             },
             {
-              "packager": "esp32_3.0.0-alpha3"
+              "packager": "esp32_3.0.0-alpha3",
               "name": "xtensa-esp32s3-elf-gcc",
               "version": "esp-12.2.0_20230208"
             },
             {
-              "packager": "esp32_3.0.0-alpha3"
+              "packager": "esp32_3.0.0-alpha3",
               "name": "xtensa-esp-elf-gdb",
               "version": "12.1_20221002"
             },
             {
-              "packager": "esp32_3.0.0-alpha3"
+              "packager": "esp32_3.0.0-alpha3",
               "name": "esp-rv32",
               "version": "2302"
             },
             {
-              "packager": "esp32_3.0.0-alpha3"
+              "packager": "esp32_3.0.0-alpha3",
               "name": "riscv32-esp-elf-gdb",
               "version": "12.1_20221002"
             },
             {
-              "packager": "esp32_3.0.0-alpha3"
+              "packager": "esp32_3.0.0-alpha3",
               "name": "openocd-esp32",
               "version": "v0.12.0-esp32-20230921"
             },
             {
-              "packager": "esp32_3.0.0-alpha3"
+              "packager": "esp32_3.0.0-alpha3",
               "name": "esptool_py",
               "version": "4.6"
             },
             {
-              "packager": "esp32_3.0.0-alpha3"
+              "packager": "esp32_3.0.0-alpha3",
               "name": "mkspiffs",
               "version": "0.2.3"
             },
             {
-              "packager": "esp32_3.0.0-alpha3"
+              "packager": "esp32_3.0.0-alpha3",
               "name": "mklittlefs",
               "version": "3.0.0-gnu12-dc7f933"
             },
