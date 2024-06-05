@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "esp32_2.0.5",
+            "name": "esp32_3.0.1",
             "maintainer": "Espressif Systems",
             "websiteURL": "https://github.com/espressif/arduino-esp32",
             "email": "hristo@espressif.com",
@@ -10,14 +10,14 @@
             },
             "platforms": [
                 {
-                    "name": "esp32_2.0.5",
+                    "name": "esp32_3.0.1",
                     "architecture": "esp32",
-                    "version": "2.0.5",
+                    "version": "3.0.1",
                     "category": "ESP32",
-                    "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.5/esp32-2.0.5.zip",
-                    "archiveFileName": "esp32-2.0.5.zip",
-                    "checksum": "SHA-256:c7a1040c5f007a799ef9eb249508e3544c3cf5246f67cdfdc1e80f7d0ca7b41d",
-                    "size": "260916106",
+                    "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.1/esp32-3.0.1.zip",
+                    "archiveFileName": "esp32-3.0.1.zip",
+                    "checksum": "SHA-256:b7169d0dd51b64e450a7c09fafb7a4782820a9bc745f7b1e4618316440db0930",
+                    "size": "23895257",
                     "help": {
                         "online": ""
                     },
@@ -33,43 +33,71 @@
                         },
                         {
                             "name": "ESP32-C3 Dev Board"
+                        },
+                        {
+                            "name": "Arduino Nano ESP32"
                         }
                     ],
                     "toolsDependencies": [
                         {
-                            "packager": "esp32_2.0.5",
-                            "name": "riscv32-esp-elf-gcc",
-                            "version": "gcc8_4_0-esp-2021r2-patch3"
+                            "packager": "esp32_3.0.1",
+                            "name": "esp32-arduino-libs",
+                            "version": "idf-release_v5.1-442a798083"
                         },
                         {
-                            "packager": "esp32_2.0.5",
-                            "name": "xtensa-esp32-elf-gcc",
-                            "version": "gcc8_4_0-esp-2021r2-patch3"
+                            "packager": "esp32_3.0.1",
+                            "name": "esp-x32",
+                            "version": "2302"
                         },
                         {
-                            "packager": "esp32_2.0.5",
-                            "name": "xtensa-esp32s2-elf-gcc",
-                            "version": "gcc8_4_0-esp-2021r2-patch3"
+                            "packager": "esp32_3.0.1",
+                            "name": "esp-xs2",
+                            "version": "2302"
                         },
                         {
-                            "packager": "esp32_2.0.5",
-                            "name": "xtensa-esp32s3-elf-gcc",
-                            "version": "gcc8_4_0-esp-2021r2-patch3"
+                            "packager": "esp32_3.0.1",
+                            "name": "esp-xs3",
+                            "version": "2302"
                         },
                         {
-                            "packager": "esp32_2.0.5",
+                            "packager": "esp32_3.0.1",
+                            "name": "xtensa-esp-elf-gdb",
+                            "version": "12.1_20231023"
+                        },
+                        {
+                            "packager": "esp32_3.0.1",
+                            "name": "esp-rv32",
+                            "version": "2302"
+                        },
+                        {
+                            "packager": "esp32_3.0.1",
+                            "name": "riscv32-esp-elf-gdb",
+                            "version": "12.1_20231023"
+                        },
+                        {
+                            "packager": "esp32_3.0.1",
+                            "name": "openocd-esp32",
+                            "version": "v0.12.0-esp32-20230921"
+                        },
+                        {
+                            "packager": "esp32_3.0.1",
                             "name": "esptool_py",
-                            "version": "4.2.1"
+                            "version": "4.6"
                         },
                         {
-                            "packager": "esp32_2.0.5",
+                            "packager": "esp32_3.0.1",
                             "name": "mkspiffs",
                             "version": "0.2.3"
                         },
                         {
-                            "packager": "esp32_2.0.5",
+                            "packager": "esp32_3.0.1",
                             "name": "mklittlefs",
                             "version": "3.0.0-gnu12-dc7f933"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "dfu-util",
+                            "version": "0.11.0-arduino5"
                         }
                     ]
                 }
