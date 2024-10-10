@@ -51,13 +51,13 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 https://espressif.github.io/arduino-esp32/package_esp32_dev_index.json
 https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json
 
-https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_esp32_index_1_0_6.json
-https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_esp32_index_2.0.14.json
+https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/refs/heads/master/package_esp32_index_1_0_6.json
+https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/refs/heads/master/package_esp32_index_2_0_17.json
 
-https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_esp32_dev_index_3_0_0-alpha3.json
+https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/refs/heads/master/package_esp32_dev_index_3_0_0-alpha3.json
 
-https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_m5stack_index_1_0_6.json
-https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/master/package_m5stack_index_2.1.0.json
+https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/refs/heads/master/package_m5stack_index_1_0_6.json
+https://raw.githubusercontent.com/tanakamasayuki/esp32-arduino-test/refs/heads/master/package_m5stack_index_2.1.0.json
 ```
 
 ## ボードマネージャでインストール
