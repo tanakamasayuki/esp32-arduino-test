@@ -14,7 +14,7 @@
                     "architecture": "esp32",
                     "version": "3.2.1",
                     "category": "M5Stack",
-                    "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-3.2.1.zip",
+                    "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-3.2.1.zip",
                     "archiveFileName": "esp32-3.2.1.zip",
                     "checksum": "SHA-256:d1e647456f4b6f050a727ad5aac4cd4e4eded0911f80fb4786cdd4dce722cd46",
                     "size": "20670963",
