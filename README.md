@@ -116,3 +116,17 @@ build_flags = -DCORE_DEBUG_LEVEL=0 ;0:None, 1:Error, 2:Warn, 3:Info, 4:Debug, 5:
 lib_deps = 
   m5stack/M5Stack
 ```
+
+## pioarduinoのplatformio.ini例
+PlatformIO標準のESP32はバージョン3系をサポートしていません。3系を利用したい場合にはpioarduinoの利用が推奨されています。
+https://github.com/pioarduino/platform-espressif32
+```
+[env:stable]
+platform = https://github.com/pioarduino/platform-espressif32/releases/download/stable/platform-espressif32.zip
+board = ...
+```
+上記のstableを指定するとそのときの最新バージョンになります。
+明示的にバージョン54.03.21を利用したい場合にはstableの部分を54.03.21に書き換えたものになります。
+```
+platform = https://github.com/pioarduino/platform-espressif32/releases/download/54.03.21/platform-espressif32.zip
+```
