@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "m5stack_3.2.0",
+            "name": "m5stack_3.2.2",
             "maintainer": "M5Stack official",
             "websiteURL": "https://github.com/m5stack",
             "email": " support@m5stack.com",
@@ -10,14 +10,14 @@
             },
             "platforms": [
                 {
-                    "name": "m5stack_3.2.0",
+                    "name": "m5stack_3.2.2",
                     "architecture": "esp32",
-                    "version": "3.2.0",
+                    "version": "3.2.2",
                     "category": "M5Stack",
-                    "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-3.2.0.zip",
-                    "archiveFileName": "esp32-3.2.0.zip",
-                    "checksum": "SHA-256:c52d9298e0a4c116f115da238318ce35d9b2b94ae555e192bea10ca3e2c7bb5f",
-                    "size": "20667882",
+                    "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-3.2.2.zip",
+                    "archiveFileName": "esp32-3.2.2.zip",
+                    "checksum": "SHA-256:24cf5d2c6cd92a12d50932ffdb5019ff02758e74067d0e3d7926f4ab95205277",
+                    "size": "20447892",
                     "help": {
                         "online": ""
                     },
@@ -105,51 +105,54 @@
                         },
                         {
                             "name": "M5DinMeter"
+                        },
+                        {
+                            "name": "M5NanoC6"
                         }
                     ],
                     "toolsDependencies": [
                         {
-                            "packager": "m5stack_3.2.0",
+                            "packager": "m5stack_3.2.2",
                             "name": "esp32-arduino-libs",
-                            "version": "idf-release_v5.4-2f7dcd86-v1"
+                            "version": "idf-release_v5.4-858a988d-v1"
                         },
                         {
-                            "packager": "m5stack_3.2.0",
+                            "packager": "m5stack_3.2.2",
                             "name": "esp-x32",
                             "version": "2411"
                         },
                         {
-                            "packager": "m5stack_3.2.0",
+                            "packager": "m5stack_3.2.2",
                             "name": "xtensa-esp-elf-gdb",
                             "version": "14.2_20240403"
                         },
                         {
-                            "packager": "m5stack_3.2.0",
+                            "packager": "m5stack_3.2.2",
                             "name": "esp-rv32",
                             "version": "2411"
                         },
                         {
-                            "packager": "m5stack_3.2.0",
+                            "packager": "m5stack_3.2.2",
                             "name": "riscv32-esp-elf-gdb",
                             "version": "14.2_20240403"
                         },
                         {
-                            "packager": "m5stack_3.2.0",
+                            "packager": "m5stack_3.2.2",
                             "name": "openocd-esp32",
-                            "version": "v0.12.0-esp32-20241016"
+                            "version": "v0.12.0-esp32-20250422"
                         },
                         {
-                            "packager": "m5stack_3.2.0",
+                            "packager": "m5stack_3.2.2",
                             "name": "esptool_py",
-                            "version": "4.9.dev3"
+                            "version": "5.0.dev1"
                         },
                         {
-                            "packager": "m5stack_3.2.0",
+                            "packager": "m5stack_3.2.2",
                             "name": "mkspiffs",
                             "version": "0.2.3"
                         },
                         {
-                            "packager": "m5stack_3.2.0",
+                            "packager": "m5stack_3.2.2",
                             "name": "mklittlefs",
                             "version": "3.0.0-gnu12-dc7f933"
                         },
