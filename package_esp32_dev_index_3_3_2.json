@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "esp32_3.3.0-alpha1",
+            "name": "esp32_3.3.2",
             "maintainer": "Espressif Systems",
             "websiteURL": "https://github.com/espressif/arduino-esp32",
             "email": "hristo@espressif.com",
@@ -10,14 +10,14 @@
             },
             "platforms": [
                 {
-                    "name": "esp32_3.3.0-alpha1",
+                    "name": "esp32_3.3.2",
                     "architecture": "esp32",
-                    "version": "3.3.0-alpha1",
+                    "version": "3.3.2",
                     "category": "ESP32",
-                    "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.0-alpha1/esp32-3.3.0-alpha1.zip",
-                    "archiveFileName": "esp32-3.3.0-alpha1.zip",
-                    "checksum": "SHA-256:1ecaa232ccdf4d32211d55d203e1a655e75945c6326e8c27e8c059eca7946d37",
-                    "size": "25494893",
+                    "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.2/esp32-3.3.2.zip",
+                    "archiveFileName": "esp32-3.3.2.zip",
+                    "checksum": "SHA-256:8195ad45a35e0ebabe0985503f97bcfa4fe923b4aec4944ec0f2f84e4eb4acab",
+                    "size": "27183358",
                     "help": {
                         "online": ""
                     },
@@ -49,49 +49,49 @@
                     ],
                     "toolsDependencies": [
                         {
-                            "packager": "esp32_3.3.0-alpha1",
+                            "packager": "esp32_3.3.2",
                             "name": "esp32-arduino-libs",
-                            "version": "idf-master-d930a386-v1"
+                            "version": "idf-release_v5.5-07e9bf49-v1"
                         },
                         {
-                            "packager": "esp32_3.3.0-alpha1",
+                            "packager": "esp32_3.3.2",
                             "name": "esp-x32",
-                            "version": "2411"
+                            "version": "2507"
                         },
                         {
-                            "packager": "esp32_3.3.0-alpha1",
+                            "packager": "esp32_3.3.2",
                             "name": "xtensa-esp-elf-gdb",
-                            "version": "16.2_20250324"
+                            "version": "16.3_20250913"
                         },
                         {
-                            "packager": "esp32_3.3.0-alpha1",
+                            "packager": "esp32_3.3.2",
                             "name": "esp-rv32",
-                            "version": "2411"
+                            "version": "2507"
                         },
                         {
-                            "packager": "esp32_3.3.0-alpha1",
+                            "packager": "esp32_3.3.2",
                             "name": "riscv32-esp-elf-gdb",
-                            "version": "16.2_20250324"
+                            "version": "16.3_20250913"
                         },
                         {
-                            "packager": "esp32_3.3.0-alpha1",
+                            "packager": "esp32_3.3.2",
                             "name": "openocd-esp32",
-                            "version": "v0.12.0-esp32-20250226"
+                            "version": "v0.12.0-esp32-20250707"
                         },
                         {
-                            "packager": "esp32_3.3.0-alpha1",
+                            "packager": "esp32_3.3.2",
                             "name": "esptool_py",
-                            "version": "4.9.dev3"
+                            "version": "5.1.0"
                         },
                         {
-                            "packager": "esp32_3.3.0-alpha1",
+                            "packager": "esp32_3.3.2",
                             "name": "mkspiffs",
                             "version": "0.2.3"
                         },
                         {
-                            "packager": "esp32_3.3.0-alpha1",
+                            "packager": "esp32_3.3.2",
                             "name": "mklittlefs",
-                            "version": "3.0.0-gnu12-dc7f933"
+                            "version": "4.0.2-db0513a"
                         },
                         {
                             "packager": "arduino",
