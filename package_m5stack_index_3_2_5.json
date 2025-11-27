@@ -16,8 +16,8 @@
                     "category": "M5Stack",
                     "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-3.2.5.zip",
                     "archiveFileName": "esp32-3.2.5.zip",
-                    "checksum": "SHA-256:5050f87fed05f527485eae93386d208255f6f962ebe1423d1c24971e8dc0491a",
-                    "size": "20460578",
+                    "checksum": "SHA-256:359821796882142bc4a74e9f16bf2042ab825df47949407d9a600ad5996cca19",
+                    "size": "20460180",
                     "help": {
                         "online": ""
                     },
