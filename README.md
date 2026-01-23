@@ -136,3 +136,7 @@ board = ...
 ```
 platform = https://github.com/pioarduino/platform-espressif32/releases/download/54.03.21/platform-espressif32.zip
 ```
+タグを利用したバージョン指定も利用可能みたいですが、pioarduinoのページでは紹介されていませんでした
+```
+platform = https://github.com/pioarduino/platform-espressif32.git#54.03.21
+```
