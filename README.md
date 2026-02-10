@@ -132,7 +132,7 @@ https://github.com/pioarduino/platform-espressif32
 platform = https://github.com/pioarduino/platform-espressif32/releases/download/stable/platform-espressif32.zip
 board = ...
 ```
-上記のstableを指定するとそのときの最新バージョンになります。ただ同じファイル名で更新されるためにキャッシュなどで古いバージョンを参照している場合もあります。
+上記のstableを指定するとそのときの最新バージョンになります。ただしpioarduinoで過去利用したことがある場合にはそのときのバージョンがキャッシュされています。明示的にプラットフォームの更新を行わないと古いバージョンを利用していることがあるので注意してください。
 明示的にバージョン54.03.21を利用したい場合にはstableの部分を54.03.21に書き換えたものになります。
 ```
 platform = https://github.com/pioarduino/platform-espressif32/releases/download/54.03.21/platform-espressif32.zip
