@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "esp32_2.0.15",
+            "name": "esp32_3.3.8",
             "maintainer": "Espressif Systems",
             "websiteURL": "https://github.com/espressif/arduino-esp32",
             "email": "hristo@espressif.com",
@@ -10,14 +10,14 @@
             },
             "platforms": [
                 {
-                    "name": "esp32_2.0.15",
+                    "name": "esp32_3.3.8",
                     "architecture": "esp32",
-                    "version": "2.0.15",
+                    "version": "3.3.8",
                     "category": "ESP32",
-                    "url": "https://github.com/espressif/arduino-esp32/releases/download/2.0.15/esp32-2.0.15.zip",
-                    "archiveFileName": "esp32-2.0.15.zip",
-                    "checksum": "SHA-256:2219c1636264f55e19b2a5e7f41c81b669b1355017b15ee31773c85674b3e9bb",
-                    "size": "254657764",
+                    "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.8/esp32-core-3.3.8.zip",
+                    "archiveFileName": "esp32-core-3.3.8.zip",
+                    "checksum": "SHA-256:8159cefaa2eea131360ac32393d741d462583297c8c1e5169ca48139fa324173",
+                    "size": "27752624",
                     "help": {
                         "online": ""
                     },
@@ -26,13 +26,25 @@
                             "name": "ESP32 Dev Board"
                         },
                         {
+                            "name": "ESP32-C3 Dev Board"
+                        },
+                        {
+                            "name": "ESP32-C5 Dev Board"
+                        },
+                        {
+                            "name": "ESP32-C6 Dev Board"
+                        },
+                        {
+                            "name": "ESP32-H2 Dev Board"
+                        },
+                        {
+                            "name": "ESP32-P4 Dev Board"
+                        },
+                        {
                             "name": "ESP32-S2 Dev Board"
                         },
                         {
                             "name": "ESP32-S3 Dev Board"
-                        },
-                        {
-                            "name": "ESP32-C3 Dev Board"
                         },
                         {
                             "name": "Arduino Nano ESP32"
@@ -40,59 +52,94 @@
                     ],
                     "toolsDependencies": [
                         {
-                            "packager": "esp32_2.0.15",
-                            "name": "xtensa-esp32-elf-gcc",
-                            "version": "esp-2021r2-patch5-8.4.0"
+                            "packager": "esp32_3.3.8",
+                            "name": "esp-x32",
+                            "version": "2601"
                         },
                         {
-                            "packager": "esp32_2.0.15",
-                            "name": "xtensa-esp32s2-elf-gcc",
-                            "version": "esp-2021r2-patch5-8.4.0"
-                        },
-                        {
-                            "packager": "esp32_2.0.15",
-                            "name": "xtensa-esp32s3-elf-gcc",
-                            "version": "esp-2021r2-patch5-8.4.0"
-                        },
-                        {
-                            "packager": "esp32_2.0.15",
+                            "packager": "esp32_3.3.8",
                             "name": "xtensa-esp-elf-gdb",
-                            "version": "11.2_20220823"
+                            "version": "16.3_20250913"
                         },
                         {
-                            "packager": "esp32_2.0.15",
-                            "name": "riscv32-esp-elf-gcc",
-                            "version": "esp-2021r2-patch5-8.4.0"
+                            "packager": "esp32_3.3.8",
+                            "name": "esp-rv32",
+                            "version": "2601"
                         },
                         {
-                            "packager": "esp32_2.0.15",
+                            "packager": "esp32_3.3.8",
                             "name": "riscv32-esp-elf-gdb",
-                            "version": "11.2_20220823"
+                            "version": "16.3_20250913"
                         },
                         {
-                            "packager": "esp32_2.0.15",
+                            "packager": "esp32_3.3.8",
                             "name": "openocd-esp32",
-                            "version": "v0.12.0-esp32-20230921"
+                            "version": "v0.12.0-esp32-20251215"
                         },
                         {
-                            "packager": "esp32_2.0.15",
+                            "packager": "esp32_3.3.8",
                             "name": "esptool_py",
-                            "version": "4.5.1"
+                            "version": "5.2.0"
                         },
                         {
-                            "packager": "esp32_2.0.15",
+                            "packager": "esp32_3.3.8",
                             "name": "mkspiffs",
                             "version": "0.2.3"
                         },
                         {
-                            "packager": "esp32_2.0.15",
+                            "packager": "esp32_3.3.8",
                             "name": "mklittlefs",
-                            "version": "3.0.0-gnu12-dc7f933"
+                            "version": "4.0.2-db0513a"
                         },
                         {
                             "packager": "arduino",
                             "name": "dfu-util",
                             "version": "0.11.0-arduino5"
+                        },
+                        {
+                            "packager": "esp32_3.3.8",
+                            "name": "esp32-libs",
+                            "version": "3.3.8"
+                        },
+                        {
+                            "packager": "esp32_3.3.8",
+                            "name": "esp32c3-libs",
+                            "version": "3.3.8"
+                        },
+                        {
+                            "packager": "esp32_3.3.8",
+                            "name": "esp32c5-libs",
+                            "version": "3.3.8"
+                        },
+                        {
+                            "packager": "esp32_3.3.8",
+                            "name": "esp32c6-libs",
+                            "version": "3.3.8"
+                        },
+                        {
+                            "packager": "esp32_3.3.8",
+                            "name": "esp32h2-libs",
+                            "version": "3.3.8"
+                        },
+                        {
+                            "packager": "esp32_3.3.8",
+                            "name": "esp32p4-libs",
+                            "version": "3.3.8"
+                        },
+                        {
+                            "packager": "esp32_3.3.8",
+                            "name": "esp32p4_es-libs",
+                            "version": "3.3.8"
+                        },
+                        {
+                            "packager": "esp32_3.3.8",
+                            "name": "esp32s2-libs",
+                            "version": "3.3.8"
+                        },
+                        {
+                            "packager": "esp32_3.3.8",
+                            "name": "esp32s3-libs",
+                            "version": "3.3.8"
                         }
                     ]
                 }
