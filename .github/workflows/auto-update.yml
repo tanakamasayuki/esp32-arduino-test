@@ -1,0 +1,41 @@
+name: auto update
+
+on:
+  schedule:
+    # 1日1回 / UTC 18:17 = JST 03:17 (毎時0分の混雑を避けてずらす)
+    - cron: "17 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# 多重実行防止: 実行中なら次回はキュー待ち（同時実行しない）
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.3"
+          extensions: curl, json, mbstring
+
+      - name: Generate
+        run: php createfile.php
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "auto update"
+            git push
+          fi
