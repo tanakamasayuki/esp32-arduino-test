@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "m5stack_1.0.9",
+            "name": "m5stack_3.3.9",
             "maintainer": "M5Stack official",
             "websiteURL": "https://github.com/m5stack",
             "email": " support@m5stack.com",
@@ -10,72 +10,243 @@
             },
             "platforms": [
                 {
+                    "name": "m5stack_3.3.9",
+                    "architecture": "esp32",
+                    "version": "3.3.9",
                     "category": "M5Stack",
-                    "name": "m5stack_1.0.9",
-                    "url": "https://static-cdn.m5stack.com/resource/arduino/m5stack-1.0.9.zip",
-                    "checksum": "SHA-256:4201c17a5ae7cc12a30dc4aa5d181302444a3d421122b1e880f4cd56e943deb2",
+                    "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-3.3.9.zip",
+                    "archiveFileName": "m5stack-3.3.9.zip",
+                    "checksum": "SHA-256:4d23028594552c94ad09040c4628346c9db91374e7c1195bcb4d60d389ed6943",
+                    "size": "39890331",
                     "help": {
                         "online": ""
                     },
-                    "version": "1.0.9",
-                    "architecture": "esp32",
-                    "archiveFileName": "esp32-1.0.9.zip",
                     "boards": [
+                        {
+                            "name": "M5Tab5"
+                        },
                         {
                             "name": "M5Core"
                         },
                         {
-                            "name": "Fire"
+                            "name": "M5Fire"
                         },
                         {
-                            "name": "Core2"
+                            "name": "M5Core2"
+                        },
+                        {
+                            "name": "M5Tough"
+                        },
+                        {
+                            "name": "M5ToughC5"
+                        },
+                        {
+                            "name": "M5Station"
                         },
                         {
                             "name": "M5StickC"
                         },
                         {
-                            "name": "M5StickC-Plus"
+                            "name": "M5StickCPlus"
+                        },
+                        {
+                            "name": "M5StickCPlus2"
+                        },
+                        {
+                            "name": "M5StickS3"
                         },
                         {
                             "name": "M5Atom"
                         },
                         {
-                            "name": "TimerCAM"
+                            "name": "M5AtomS3"
                         },
                         {
-                            "name": "PoECAM"
+                            "name": "M5AtomS3R"
                         },
                         {
-                            "name": "CoreInk"
+                            "name": "M5CoreS3"
+                        },
+                        {
+                            "name": "M5TimerCAM"
+                        },
+                        {
+                            "name": "M5UnitCAM"
+                        },
+                        {
+                            "name": "M5UnitCAMS3"
+                        },
+                        {
+                            "name": "M5UnitC6L"
+                        },
+                        {
+                            "name": "M5PoECAM"
                         },
                         {
                             "name": "M5Paper"
                         },
                         {
-                            "name": "Tough"
+                            "name": "M5PaperS3"
                         },
                         {
-                            "name": "STAMP-PICO"
+                            "name": "M5PaperColor"
+                        },
+                        {
+                            "name": "M5PaperMono"
+                        },
+                        {
+                            "name": "M5CoreInk"
+                        },
+                        {
+                            "name": "M5StampPico"
+                        },
+                        {
+                            "name": "M5StampC3"
+                        },
+                        {
+                            "name": "M5StampC5"
+                        },
+                        {
+                            "name": "M5StampS3"
+                        },
+                        {
+                            "name": "M5StampS3Bat"
+                        },
+                        {
+                            "name": "M5StampP4"
+                        },
+                        {
+                            "name": "M5StampC6LoRa"
+                        },
+                        {
+                            "name": "M5Capsule"
+                        },
+                        {
+                            "name": "M5StamPLC"
+                        },
+                        {
+                            "name": "M5Cardputer"
+                        },
+                        {
+                            "name": "M5Dial"
+                        },
+                        {
+                            "name": "M5DinMeter"
+                        },
+                        {
+                            "name": "M5NanoC6"
+                        },
+                        {
+                            "name": "M5NanoH2"
+                        },
+                        {
+                            "name": "M5PowerHub"
+                        },
+                        {
+                            "name": "M5ChainDualKey"
+                        },
+                        {
+                            "name": "ArduinoNessoN1"
+                        },
+                        {
+                            "name": "M5UnitPoEP4"
+                        },
+                        {
+                            "name": "M5StopWatch"
                         }
                     ],
                     "toolsDependencies": [
                         {
-                            "packager": "m5stack_1.0.9",
-                            "version": "1.22.0-80-g6c4433a-5.2.0",
-                            "name": "xtensa-esp32-elf-gcc"
+                            "packager": "m5stack_3.3.9",
+                            "name": "esp-x32",
+                            "version": "2601"
                         },
                         {
-                            "packager": "m5stack_1.0.9",
-                            "version": "3.0.0",
-                            "name": "esptool_py"
+                            "packager": "m5stack_3.3.9",
+                            "name": "xtensa-esp-elf-gdb",
+                            "version": "16.3_20250913"
                         },
                         {
-                            "packager": "m5stack_1.0.9",
-                            "version": "0.2.3",
-                            "name": "mkspiffs"
+                            "packager": "m5stack_3.3.9",
+                            "name": "esp-rv32",
+                            "version": "2601"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "riscv32-esp-elf-gdb",
+                            "version": "16.3_20250913"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "openocd-esp32",
+                            "version": "v0.12.0-esp32-20251215"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "esptool_py",
+                            "version": "5.3.0"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "mkspiffs",
+                            "version": "0.2.3"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "mklittlefs",
+                            "version": "4.0.2-db0513a"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "esp32-libs",
+                            "version": "3.3.9"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "esp32c3-libs",
+                            "version": "3.3.9"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "esp32c5-libs",
+                            "version": "3.3.9"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "esp32c6-libs",
+                            "version": "3.3.9"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "esp32h2-libs",
+                            "version": "3.3.9"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "esp32p4-libs",
+                            "version": "3.3.9"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "esp32p4_es-libs",
+                            "version": "3.3.9"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "esp32s2-libs",
+                            "version": "3.3.9"
+                        },
+                        {
+                            "packager": "m5stack_3.3.9",
+                            "name": "esp32s3-libs",
+                            "version": "3.3.9"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "dfu-util",
+                            "version": "0.11.0-arduino5"
                         }
-                    ],
-                    "size": "35882439"
+                    ]
                 }
             ],
             "tools": [
